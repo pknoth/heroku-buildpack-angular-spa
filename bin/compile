@@ -152,4 +152,5 @@ rm -rf "$build_dir/.npm"
 #   cp -r $build_dir/bower_components $cache_dir/
 # fi
 
-npm install @angular/cli
+status "install angular cli"
+npm install -g @angular/cli
